@@ -6,8 +6,7 @@ import sourceIdentifierPlugin from "vite-plugin-source-info"
 const isProd = process.env.BUILD_MODE === "prod"
 
 export default defineConfig({
-  // 🔴 สำคัญที่สุดสำหรับ GitHub Pages
-  base: "/numera/",
+  base: "/",   
 
   plugins: [
     react(),
